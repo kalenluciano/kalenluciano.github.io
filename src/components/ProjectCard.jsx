@@ -9,7 +9,7 @@ const ProjectCard = ({name, image, icons, description, gitHubRepo, deployedSite}
             <a href={gitHubRepo} target="_blank" rel='noreferrer'>GitHub Repo</a>
             <a href={deployedSite} target="_blank" rel='noreferrer'>Deployed Site</a>
             {icons?.map((icon, index) => (
-                <img className="icon" key={index} src={icon} />
+                <img className="icon" key={index} src={icon} alt="Coding icon"/>
             ))}
         </div>
     )
