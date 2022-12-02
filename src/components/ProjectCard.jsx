@@ -6,8 +6,8 @@ const ProjectCard = ({name, image, icons, description, gitHubRepo, deployedSite}
             <img src={image} alt={name}/>
             <h2>{name}</h2>
             <p>{description}</p>
-            <a href={gitHubRepo} target="_blank">GitHub Repo</a>
-            <a href={deployedSite} target="_blank">Deployed Site</a>
+            <a href={gitHubRepo} target="_blank" rel='noreferrer'>GitHub Repo</a>
+            <a href={deployedSite} target="_blank" rel='noreferrer'>Deployed Site</a>
             {icons?.map((icon, index) => (
                 <img className="icon" key={index} src={icon} />
             ))}
