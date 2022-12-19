@@ -1,4 +1,5 @@
 import './index.css';
+import './App.css';
 import NavBar from './components/NavBar';
 import Landing from './components/Landing';
 import About from './components/About';
@@ -9,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
 	return (
-		<div>
+		<div className="app-container">
 			<header>
 				<NavBar />
 			</header>

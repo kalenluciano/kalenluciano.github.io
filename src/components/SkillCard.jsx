@@ -2,9 +2,9 @@ import '../styles/SkillCard.css'
 
 const SkillCard = ({icon, name}) => {
     return (
-        <div>
+        <div className='skill-card'>
             <img className="icon" src={icon} alt={name} />
-            <h2>{name}</h2>
+            <h3>{name}</h3>
         </div>
     )
 }

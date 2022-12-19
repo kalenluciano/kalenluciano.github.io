@@ -1,0 +1,7 @@
+#about {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 30px 0;
+    line-height: 1.5;
+}

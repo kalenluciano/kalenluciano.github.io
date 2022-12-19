@@ -1,5 +1,6 @@
-import axios from 'axios'
+// import axios from 'axios'
 import { useState } from 'react'
+import "../styles/Contact.css"
 
 const Contact = () => {
     const initialState = {
@@ -24,12 +25,9 @@ const Contact = () => {
         <section id="contact">
             <h1>Contact</h1>
             <form onSubmit={handleSubmit} >
-                <label htmlFor='name' >Name:</label>
-                <input type='text' name='name' value={formState.name} onChange={handleChange} />
-                <label htmlFor='email' >Email:</label>
-                <input type='text' name='email' value={formState.email} onChange={handleChange} />
-                <label htmlFor='message' >Message:</label>
-                <textarea row="6" cols="20" name='message' value={formState.message} onChange={handleChange} />
+                <input type='text' name='name' value={formState.name} onChange={handleChange} placeholder="Name"/>
+                <input type='text' name='email' value={formState.email} onChange={handleChange} placeholder="Email" />
+                <textarea row="6" cols="20" name='message' value={formState.message} onChange={handleChange} placeholder="Message" />
                 <button type='submit' >Submit</button>
             </form>
         </section>
