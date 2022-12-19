@@ -4,7 +4,7 @@ const ProjectCard = ({name, image, icons, description, gitHubRepo, deployedSite}
     return (
         <div className='project-card'>
             <img className='project-picture' src={image} alt={name}/>
-            <h2>{name}</h2>
+            <h3>{name}</h3>
             <p>{description}</p>
             <div className='project-links'>
                 <a href={gitHubRepo} target="_blank" rel='noreferrer'>GitHub Repo</a>
