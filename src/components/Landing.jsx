@@ -9,7 +9,6 @@ const Landing = () => {
       <div className='landing-links'>
         <a href="https://docs.google.com/document/d/1f6Ub_9X9cn2RjRJ7zDzhEMlQGk8dkBU43G85jGgb8_4/edit?usp=sharing" target="_blank" rel='noreferrer'>View Resume</a>
         <a href="https://docs.google.com/document/d/1f6Ub_9X9cn2RjRJ7zDzhEMlQGk8dkBU43G85jGgb8_4/export?format=pdf" target="_blank" rel='noreferrer'>Download Resume</a>
-        <a href="#contact">Contact</a>
       </div>
       <img src={profilePicture} alt='Profile of Kalen Luciano'/>
     </section>

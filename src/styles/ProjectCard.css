@@ -1,11 +1,11 @@
 .project-card .icon {
     margin: 0 5px;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 }
 
 .project-card {
-    width: 400px;
+    width: 350px;
     height: 750px;
     display: flex;
     flex-flow: column wrap;
