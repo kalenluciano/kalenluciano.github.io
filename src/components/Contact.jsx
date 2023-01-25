@@ -1,4 +1,4 @@
-// import axios from 'axios'
+import axios from 'axios'
 import { useState } from 'react'
 import "../styles/Contact.css"
 
@@ -17,7 +17,9 @@ const Contact = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        // await axios.get('https://script.google.com/macros/s/AKfycbxAqwIggGlCKp2QSa-BfG1JYESCOP0vCinFx5BAdhD1mQ-isfAlagfcpCkZ2aA91CJG-w/exec', formState)
+        // fetch('https://script.google.com/macros/s/AKfycbxAqwIggGlCKp2QSa-BfG1JYESCOP0vCinFx5BAdhD1mQ-isfAlagfcpCkZ2aA91CJG-w/exec', {redirect: 'follow', method: 'POST', body: JSON.stringify(formState)}).then(res => res.json()).then(json=>{console.log(json)})
+        await axios.get('https://script.google.com/macros/s/AKfycbxAqwIggGlCKp2QSa-BfG1JYESCOP0vCinFx5BAdhD1mQ-isfAlagfcpCkZ2aA91CJG-w/exec')
+        // await axios.post('https://script.google.com/macros/s/AKfycbzClrFj5SP0sY_G--4-4s3YQDZlpXrs1vlbm4Z-SclYWsWKCGKhN3LQK525YJKziQxuYg/exec', formState)
         setFormState(initialState)
     }
     
