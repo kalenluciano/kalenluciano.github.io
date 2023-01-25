@@ -10,6 +10,7 @@ const Contact = () => {
     }
 
     const [formState, setFormState] = useState(initialState)
+    const [submitState, toggleSubmitState] = useState(false)
 
     const handleChange = (e) => {
         setFormState({...formState, [e.target.name]: e.target.value})
@@ -17,10 +18,9 @@ const Contact = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        // fetch('https://script.google.com/macros/s/AKfycbxAqwIggGlCKp2QSa-BfG1JYESCOP0vCinFx5BAdhD1mQ-isfAlagfcpCkZ2aA91CJG-w/exec', {redirect: 'follow', method: 'POST', body: JSON.stringify(formState)}).then(res => res.json()).then(json=>{console.log(json)})
-        await axios.get('https://script.google.com/macros/s/AKfycbxAqwIggGlCKp2QSa-BfG1JYESCOP0vCinFx5BAdhD1mQ-isfAlagfcpCkZ2aA91CJG-w/exec')
-        // await axios.post('https://script.google.com/macros/s/AKfycbzClrFj5SP0sY_G--4-4s3YQDZlpXrs1vlbm4Z-SclYWsWKCGKhN3LQK525YJKziQxuYg/exec', formState)
+        await axios.post('https://script.google.com/macros/s/AKfycby7IkvVXUwIZ3ekyQsicO1rc17qxXKigpQYDzfKXdz9Xni3KxtChUKUCVUEIy9R6m2T9g/exec', JSON.stringify(formState))
         setFormState(initialState)
+        toggleSubmitState(true)
     }
     
     return (
@@ -32,6 +32,7 @@ const Contact = () => {
                 <textarea row="6" cols="20" name='message' value={formState.message} onChange={handleChange} placeholder="Message" />
                 <button type='submit' >Submit</button>
             </form>
+            {submitState && <h2>Thanks for reaching out! I will get back to you shortly.</h2>}
         </section>
     )
 }
