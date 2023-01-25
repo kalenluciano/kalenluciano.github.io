@@ -2,31 +2,69 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10%;
+    height: 87vh;
 }
 
-#landing img {
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+#landing h1 {
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-bottom: 5%;
 }
 
 #landing h3 {
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 1.25em;
+    margin-bottom: 7.5%;
 }
 
 .landing-links {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 0;
+    margin-bottom: 10%;
 }
 
 .landing-links a {
+    font-size: 1.3rem;
     margin: 0 10px;
     text-decoration: none;
-    color: white;
-    border: 1px solid darkcyan;
+    color: black;
+    border: 1px solid #FFB703;
     border-radius: 5px;
-    background-color: darkcyan;
+    background-color: #FFB703;
     padding: 2.5px 5px;
+}
+
+.landing-icons {
+    margin: 7.5% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-icon {
+    background-color: #FFB703;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 0 15px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.landing-arrows {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-arrow {
+    margin: 5px;
 }
