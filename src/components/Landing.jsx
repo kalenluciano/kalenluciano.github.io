@@ -1,10 +1,7 @@
 import '../styles/Landing.css'
 import profilePicture from '../assets/project-images/profile-picture.jpeg'
-import email from '../assets/icons/email.svg'
-import github from '../assets/icons/github.svg'
-import linkedin from '../assets/icons/linkedin.svg'
 import { GoMarkGithub } from 'react-icons/go'
-import { AiFillLinkedin } from 'react-icons/ai'
+import { AiFillLinkedin, AiOutlineMail } from 'react-icons/ai'
 import { Icon } from '@iconify/react';
 
 const Landing = () => {
@@ -18,9 +15,9 @@ const Landing = () => {
       </div>
       <img className='profile-pic' src={profilePicture} alt='Profile of Kalen Luciano'/>
       <section className='landing-icons'>
-        <a href='https://github.com/kalenluciano' target='_blank' rel='noreferrer'><img className='landing-icon' src={GoMarkGithub} alt='GitHub logo'/></a>
-        <a href='https://www.linkedin.com/in/kalenluciano/' target='_blank' rel='noreferrer'><img className='landing-icon' src={linkedin} alt='LinkedIn logo' /></a>
-        <a href={`mailto: ${process.env.REACT_APP_EMAIL}`} target='_blank' rel='noreferrer'><img className='landing-icon' src={email} alt='Email logo' /></a>
+        <a href='https://github.com/kalenluciano' target='_blank' rel='noreferrer'><GoMarkGithub className='landing-icon'/></a>
+        <a href='https://www.linkedin.com/in/kalenluciano/' target='_blank' rel='noreferrer'><AiFillLinkedin className='landing-icon'/></a>
+        <a href={`mailto: ${process.env.REACT_APP_EMAIL}`} target='_blank' rel='noreferrer'><AiOutlineMail className='landing-icon'/></a>
       </section>
       <div className='landing-arrows'>
         <Icon icon="material-symbols:arrow-back-ios-new-rounded" color="#ffb703" width="48" height="48" rotate={3} />
