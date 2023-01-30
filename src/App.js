@@ -1,5 +1,6 @@
 import './index.css';
 import './App.css';
+import './styles/NavBar.css';
 import NavBar from './components/NavBar';
 import Landing from './components/Landing';
 import About from './components/About';
@@ -13,6 +14,7 @@ function App() {
 		<div className="app-container">
 			<header>
 				<NavBar />
+				<div className="nav-bar-line"></div>
 			</header>
 			<main>
 				<Landing />

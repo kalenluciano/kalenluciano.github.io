@@ -10,7 +10,6 @@ const NavBar = () => {
                 <a href="#skills">Skills</a>
                 <a href="#contact">Contact</a>
             </nav>
-            <div className='nav-bar-line'></div>
         </section>
     )
 }

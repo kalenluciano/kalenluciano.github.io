@@ -9,7 +9,8 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
-    padding: 20px 0 10px 0;
+    height: 9vh;
+    align-items: center;
 }
 
 nav a {
@@ -19,5 +20,8 @@ nav a {
 
 .nav-bar-line {
     border-bottom: 3px #FFB703 solid;
+    width: 90vw;
     margin: 0 5%;
+    position: absolute;
+    bottom: 0;
 }
