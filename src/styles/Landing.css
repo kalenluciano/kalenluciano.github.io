@@ -68,3 +68,20 @@
 .last-arrow {
     margin: 5px;
 }
+
+@media screen and (min-width: 690px) {
+    .landing-arrows {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    #landing {
+        display: flex;
+        justify-content: center;
+    }
+
+    .landing-icons {
+        margin: 3% 0;
+    }
+}
