@@ -13,9 +13,7 @@
 
 .project-card {
     width: 350px;
-    height: 80vh;
-    min-height: 500px;
-    max-height: 1000px;
+    min-height: fit-content;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
