@@ -61,8 +61,21 @@
     }
 }
 
-/* @media screen and (max-width: 300px) {
+@media screen and (max-width: 340px) {
     .project-card {
-        width: 275px;
+        width: 95vw;
+        margin: 15px 2vw;
     }
-} */
+
+    .project-card .icon {
+        margin: 0 2.5px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .project-card a {
+        font-size: smaller;
+        padding: 2.5px 2.5px;
+        margin: 0 5px;
+    }
+}

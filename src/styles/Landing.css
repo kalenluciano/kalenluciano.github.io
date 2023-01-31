@@ -69,6 +69,20 @@
     margin: 5px;
 }
 
+@media screen and (max-width: 300px) {
+    #landing h1 {
+        font-size: 2em;
+    }
+    
+    #landing h3 {
+        font-size: 1em;
+    }
+
+    .landing-links a {
+        font-size: 1rem;
+    }
+}
+
 @media screen and (max-height: 800px) {
     .landing-arrows {
         display: none;
