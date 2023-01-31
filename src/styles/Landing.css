@@ -1,4 +1,5 @@
 #landing {
+    padding-top: 3%;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -86,6 +87,9 @@
 @media screen and (max-height: 800px) {
     .middle-arrow, .last-arrow {
         display: none;
+    }
+    .first-arrow {
+        padding-bottom: 1%;
     }
 }
 
