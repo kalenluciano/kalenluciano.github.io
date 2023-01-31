@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    height: 90vh;
+    min-height: 90vh;
     scroll-margin-top: 10vh;
 }
 
@@ -75,14 +75,14 @@
     }
 }
 
-@media screen and (max-height: 675px) {
+@media screen and (max-height: 675px) and (max-width: 540px) {
     .profile-pic {
         width: 200px;
         height: 200px;
     }
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 600px) and (max-width: 540px) {
     .profile-pic {
         width: 150px;
         height: 150px;
