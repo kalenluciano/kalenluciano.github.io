@@ -1,6 +1,10 @@
 #contact {
     text-align: center;
     scroll-margin-top: 12vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #contact form {
@@ -42,4 +46,10 @@
     border: 1px solid #FFB703;
     background-color: #FFB703;
     margin: 20px;
+}
+
+@media screen and (max-width: 300px) {
+    #contact form, #contact textarea, #contact input {
+        max-width: 90%;
+    }
 }
