@@ -66,7 +66,7 @@
 }
 
 .last-arrow {
-    margin: 5px;
+    margin: 5px 0 10px 0;
 }
 
 @media screen and (max-width: 300px) {
@@ -84,7 +84,7 @@
 }
 
 @media screen and (max-height: 800px) {
-    .landing-arrows {
+    .middle-arrow, .last-arrow {
         display: none;
     }
 }

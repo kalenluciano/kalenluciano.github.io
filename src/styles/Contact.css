@@ -29,7 +29,7 @@
     border-bottom: 1px solid #70A288;
     padding: 10px;
     border-radius: 5px;
-    width: 300px;
+    width: 450px;
 }
 
 #contact textarea {
@@ -48,7 +48,7 @@
     margin: 20px;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 500px) {
     #contact form, #contact textarea, #contact input {
         max-width: 90%;
     }
