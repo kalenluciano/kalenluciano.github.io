@@ -2,18 +2,6 @@ import '../styles/Skills.css'
 import { DiCss3Full, DiHtml5, DiMongodb, DiNodejsSmall, DiReact } from "react-icons/di";
 import { SiExpress, SiJavascript, SiFlask, SiPostgresql, SiSequelize } from 'react-icons/si';
 import { FaVuejs, FaPython } from 'react-icons/fa'
-import css from '../assets/icons/css3.svg'
-import express from '../assets/icons/express.svg'
-import html from '../assets/icons/html5.svg'
-import js from '../assets/icons/js.svg'
-import mongodb from '../assets/icons/mongodb.svg'
-import nodejs from '../assets/icons/node-js.svg'
-import psql from '../assets/icons/postgresql.svg'
-import python from '../assets/icons/python.svg'
-import react from '../assets/icons/react.svg'
-import vuejs from '../assets/icons/vuejs.svg'
-import sequelize from '../assets/icons/sequelize.png'
-import flask from '../assets/icons/flask.svg'
 import SkillCard from './SkillCard'
 
 const Skills = () => {
