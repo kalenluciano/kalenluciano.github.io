@@ -41,6 +41,12 @@
     border-radius: 5px;
     background-color: #FFB703;
     padding: 2%;
+    transition: all 0.3s ease;
+}
+
+.landing-links a:hover {
+    background-color: #023047;
+    color: #FFB703;
 }
 
 .landing-icons {
@@ -57,6 +63,11 @@
     margin: 0 15px;
     border-radius: 5px;
     padding: 5px;
+    transition: all 0.3s ease;
+}
+
+.landing-icon:hover {
+    color: white;
 }
 
 .landing-arrows {
