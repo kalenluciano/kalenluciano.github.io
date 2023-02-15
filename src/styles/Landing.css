@@ -34,13 +34,13 @@
 
 .landing-links a {
     font-size: 1.3rem;
-    margin: 0 10px;
+    margin: 2% 10px;
     text-decoration: none;
     color: black;
     border: 1px solid #FFB703;
     border-radius: 5px;
     background-color: #FFB703;
-    padding: 2.5px 5px;
+    padding: 2%;
 }
 
 .landing-icons {
