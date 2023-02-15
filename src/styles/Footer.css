@@ -1,14 +1,39 @@
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 10%;
+    scroll-margin-top: 10vh;
+}
+
+#footer * {
+    margin-top: 1.5%;
+}
+
+#footer p {
+    font-size: .75rem;
+}
+
+.footer-portfolio-link a {
+    color: #FFB703;
+    text-decoration: none;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+}
+
 .footer-icon {
     width: 25px;
     height: 25px;
     cursor: pointer;
     margin: 0 10px;
     color: #FFB703;
+    transition: all 0.3s ease;
 }
 
-#footer {
-    display: flex;
-    justify-content: center;
-    margin: 10%;
-    scroll-margin-top: 10vh;
+.footer-icon:hover {
+    color: white
 }
