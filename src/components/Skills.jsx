@@ -1,6 +1,6 @@
 import '../styles/Skills.css'
 import { DiCss3Full, DiHtml5, DiMongodb, DiNodejsSmall, DiReact } from "react-icons/di";
-import { SiExpress, SiJavascript, SiFlask, SiPostgresql, SiSequelize, SiTailwindcss, SiRedux } from 'react-icons/si';
+import { SiExpress, SiJavascript, SiFlask, SiPostgresql, SiSequelize, SiTailwindcss, SiRedux, SiC } from 'react-icons/si';
 import { FaVuejs, FaPython } from 'react-icons/fa'
 import SkillCard from './SkillCard'
 
@@ -16,6 +16,7 @@ const Skills = () => {
                         <SkillCard icon={<DiCss3Full className='icon'/>} name="CSS" />
                         <SkillCard icon={<SiJavascript className='icon'/>} name="JavaScript" />
                         <SkillCard icon={<FaPython className='icon'/>} name="Python" />
+                        <SkillCard icon={<SiC className='icon'/>} name="C" />
                     </section>
                 </section>
                 <section className='skills-section'>
