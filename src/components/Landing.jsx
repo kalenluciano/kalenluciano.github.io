@@ -12,7 +12,7 @@ const Landing = () => {
         <h3>Full-Stack Software Engineer</h3>
       </div>
       <div className='landing-links bottom-left'>
-        <a href="https://docs.google.com/document/d/1f6Ub_9X9cn2RjRJ7zDzhEMlQGk8dkBU43G85jGgb8_4/edit?usp=sharing" target="_blank" rel='noreferrer'>View Resume</a>
+        <a href="https://drive.google.com/file/d/1m2VGFCi1OsBeGXkPovdaLfzfo63ovlEl/view?usp=sharing" target="_blank" rel='noreferrer'>View Resume</a>
         <a href="#contact">Let's Chat</a>
       </div>
       <div className='top-right'>
