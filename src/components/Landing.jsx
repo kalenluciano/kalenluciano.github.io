@@ -12,16 +12,16 @@ const Landing = () => {
         <h3>Full-Stack Software Engineer</h3>
       </div>
       <div className='landing-links bottom-left'>
-        <a href="https://drive.google.com/file/d/1m2VGFCi1OsBeGXkPovdaLfzfo63ovlEl/view?usp=sharing" target="_blank" rel='noreferrer'>View Resume</a>
+        <a href="https://drive.google.com/file/d/13cFfCoXRGGvUqVi31aXN-k9bZ7IRepxi/view?usp=drive_link" target="_blank" rel='noreferrer'>View Resume</a>
         <a href="#contact">Let's Chat</a>
       </div>
       <div className='top-right'>
-        <img className='profile-pic' src={profilePicture} alt='Profile of Kalen Luciano'/>
+        <img className='profile-pic' src={profilePicture} alt='Profile of Kalen Luciano' />
       </div>
       <section className='landing-icons bottom-right'>
-        <a href='https://github.com/kalenluciano' target='_blank' rel='noreferrer'><GoMarkGithub className='landing-icon'/></a>
-        <a href='https://www.linkedin.com/in/kalenluciano/' target='_blank' rel='noreferrer'><AiFillLinkedin className='landing-icon'/></a>
-        <a href={`mailto: ${process.env.REACT_APP_EMAIL}`} target='_blank' rel='noreferrer'><AiOutlineMail className='landing-icon'/></a>
+        <a href='https://github.com/kalenluciano' target='_blank' rel='noreferrer'><GoMarkGithub className='landing-icon' /></a>
+        <a href='https://www.linkedin.com/in/kalenluciano/' target='_blank' rel='noreferrer'><AiFillLinkedin className='landing-icon' /></a>
+        <a href={`mailto: ${process.env.REACT_APP_EMAIL}`} target='_blank' rel='noreferrer'><AiOutlineMail className='landing-icon' /></a>
       </section>
       <div className='landing-arrows'>
         <Icon className='first-arrow' icon="material-symbols:arrow-back-ios-new-rounded" color="#ffb703" width="48" height="48" rotate={3} />
